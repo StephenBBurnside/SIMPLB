@@ -9,7 +9,7 @@ using namespace std;
 class Node {
 
 protected:	
-
+    // Distribution functions (distros)
 	double f[nQ];
 	
 	

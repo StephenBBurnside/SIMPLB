@@ -10,9 +10,9 @@ In a nutshell, not even a bit is missed!
 Stream function is validated with double precision accuracy. The stream function is periodic i.e.
 if any thing goes out of the domain from right, it comes into domain from left.
 A small domain is selected, like 5x5. The distribution function of all nodes are set to 0. Only at
-one node, like domain(3,3), the distrobution function at a specific direction, like f[1], is set to
+one node, like domain(3,3), the distribution function at a specific direction, like f[1], is set to
 1.0. In each streaming time step we track the value of 1.0. A correct stream in the system should
-show a horizental movement of that value. It is repeated for all the other directions too.
+show a horizontal movement of that value. It is repeated for all the other directions too.
 Note if direction is zero, the package doesn't move.
 */
 

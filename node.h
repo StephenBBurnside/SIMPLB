@@ -17,10 +17,10 @@ public:
 
 	Node() {set( (double) 0.); }
 
-    // Altering access
+    // Read-Write access to distribution function
 	double& operator[] (const int& q){return f[q];}
 
-	// Constant access
+	// Read-Only access to distribution function
 	double const& operator[] (const int& q) const {return f[q];}
 
 	// Set all distros to a number
